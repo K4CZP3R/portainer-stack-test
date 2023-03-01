@@ -6,4 +6,4 @@ services:
       dockerfile: Dockerfile
     environment:
       SET_IN_GIT: "true"
-    image: ghcr.io/k4czp3r/portainer-stack-test:latest
+    # image: ghcr.io/k4czp3r/portainer-stack-test:latest
