@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  test-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ghcr.io/k4czp3r/portainer-stack-test:latest
